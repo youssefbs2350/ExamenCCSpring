@@ -32,7 +32,7 @@ public class DeclarationService implements IDeclarationService {
 
         if (declarations.isEmpty()) {
             System.out.println("Aucune déclaration à traiter automatiquement.");
-            return; // Ne rien faire si aucune déclaration n'est trouvée
+            return;
         }
 
         for (Declaration declaration : declarations) {
