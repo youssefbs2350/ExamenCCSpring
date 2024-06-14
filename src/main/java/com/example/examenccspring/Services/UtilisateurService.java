@@ -20,7 +20,7 @@ public class UtilisateurService implements IUtilisateursServices {
     @Override
     public Utilisateur ajouterVictime(Utilisateur victime) {
         if (victime.getRole() != Role.VICTIME) {
-            return null; // Si le rôle n'est pas VICTIME, retourne null (spécification)
+            return null; 
         }
         return utilisateurRepository.save(victime);
     }
@@ -28,7 +28,7 @@ public class UtilisateurService implements IUtilisateursServices {
     @Override
     public Utilisateur ajouterPolicier(Utilisateur policier) {
         if (policier.getRole() != Role.POLICIER) {
-            return null; // Si le rôle n'est pas VICTIME, retourne null (spécification)
+            return null; 
         }
         return utilisateurRepository.save(policier);
     }
