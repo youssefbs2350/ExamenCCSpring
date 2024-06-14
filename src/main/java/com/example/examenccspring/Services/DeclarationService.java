@@ -77,7 +77,7 @@ public class DeclarationService implements IDeclarationService {
 
     @Override
     public Declaration ajouterDeclaration(Declaration declaration) {
-        // Assurez-vous que d'autres validations nécessaires sont effectuées ici si nécessaire
+
         return declarationRepo.save(declaration);
     }
 
