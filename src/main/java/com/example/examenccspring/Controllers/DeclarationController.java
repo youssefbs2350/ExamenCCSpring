@@ -47,14 +47,14 @@ public class DeclarationController {
         return ResponseEntity.ok().build();
     }
 
-    // Endpoint pour traiter automatiquement les déclarations
+
     @PutMapping("/traiter-automatiquement")
     public ResponseEntity<Void> traiterDeclarationAutomatiquement() {
         declarationService.traiterDeclarationAutomatiquement();
         return ResponseEntity.ok().build();
     }
 
-    // Endpoint pour afficher les déclarations traitées
+   
     @GetMapping("/afficher-traites")
     public ResponseEntity<List<Declaration>> afficherDeclarationsTraitees() {
         List<Declaration> declarations = declarationService.afficherDeclarationsTraitees();
