@@ -81,7 +81,6 @@ public class UtilisateurService implements IUtilisateursServices {
         }
     }
 
-
     @Override
     public void affecterDeclarationAPolicier(long idDeclaration, long idUtilisateur) {
         Utilisateur policier = utilisateurRepository.findByIdAndRole(idUtilisateur, Role.POLICIER);
@@ -95,12 +94,4 @@ public class UtilisateurService implements IUtilisateursServices {
         }
     }
 
-    public String AjouterDeclarationEtAffecterAVictime(Declaration declaration, String telephone) {
-        Utilisateur victime = utilisateurRepository.findByTelephone(telephone);
-        if (victime != null && victime.getRole() == Role.VICTIME) {
-            declaration.setVictime(victime);
-            declarationRepository.save(declaration);
-        }
-        return telephone;
-    }
 }

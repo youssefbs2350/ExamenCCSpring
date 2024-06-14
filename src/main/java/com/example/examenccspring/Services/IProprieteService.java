@@ -1,6 +1,4 @@
 package com.example.examenccspring.Services;
-import com.example.examenccspring.Entities.Declaration;
-import com.example.examenccspring.Entities.Utilisateur;
 import com.example.examenccspring.Entities.Propriete;
 import java.util.List;
 import java.util.Optional;

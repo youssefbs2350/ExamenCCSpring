@@ -6922,3 +6922,256 @@ java.lang.NullPointerException: Cannot invoke "com.example.examenccspring.Reposi
 2024-06-14T22:47:06.307+01:00  INFO 13000 --- [ExamenCCSpring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-06-14T22:47:06.308+01:00  INFO 13000 --- [ExamenCCSpring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
 2024-06-14T22:47:06.309+01:00  INFO 13000 --- [ExamenCCSpring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-06-14T22:47:09.449+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : Starting ExamenCcSpringApplication using Java 17.0.9 with PID 32412 (D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring\target\classes started by youss in D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring)
+2024-06-14T22:47:09.454+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-06-14T22:47:09.503+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-14T22:47:09.504+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-14T22:47:10.226+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-14T22:47:10.279+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2024-06-14T22:47:10.728+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-06-14T22:47:10.738+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-14T22:47:10.739+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-14T22:47:10.785+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-14T22:47:10.786+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1282 ms
+2024-06-14T22:47:10.913+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-14T22:47:10.953+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-14T22:47:10.982+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-14T22:47:11.219+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-14T22:47:11.239+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-14T22:47:11.350+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68401687
+2024-06-14T22:47:11.352+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-14T22:47:11.389+01:00  WARN 32412 --- [ExamenCCSpring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-14T22:47:12.064+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-14T22:47:12.105+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14T22:47:12.398+01:00  WARN 32412 --- [ExamenCCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-14T22:47:12.691+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-14T22:47:12.718+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-06-14T22:47:12.725+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : Started ExamenCcSpringApplication in 3.644 seconds (process running for 4.268)
+2024-06-14T22:47:21.021+01:00  INFO 32412 --- [ExamenCCSpring] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-14T22:47:21.021+01:00  INFO 32412 --- [ExamenCCSpring] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-14T22:47:21.022+01:00  INFO 32412 --- [ExamenCCSpring] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-14T22:47:21.796+01:00  INFO 32412 --- [ExamenCCSpring] [http-nio-8081-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 378 ms
+2024-06-14T22:49:13.746+01:00 ERROR 32412 --- [ExamenCCSpring] [http-nio-8081-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 4 results were returned] with root cause
+
+org.hibernate.NonUniqueResultException: Query did not return a unique result: 4 results were returned
+	at org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:578) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:561) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:223) ~[spring-data-jpa-3.3.0.jar:3.3.0]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:92) ~[spring-data-jpa-3.3.0.jar:3.3.0]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:152) ~[spring-data-jpa-3.3.0.jar:3.3.0]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:140) ~[spring-data-jpa-3.3.0.jar:3.3.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.3.0.jar:3.3.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.3.0.jar:3.3.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-3.3.0.jar:3.3.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143) ~[spring-data-commons-3.3.0.jar:3.3.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70) ~[spring-data-commons-3.3.0.jar:3.3.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.1.8.jar:6.1.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392) ~[spring-tx-6.1.8.jar:6.1.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:136) ~[spring-data-jpa-3.3.0.jar:3.3.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.8.jar:6.1.8]
+	at jdk.proxy4/jdk.proxy4.$Proxy131.findByMatricule(Unknown Source) ~[na:na]
+	at com.example.examenccspring.Services.ProprieteService.recupererProprieteParMatricule(ProprieteService.java:46) ~[classes/:na]
+	at com.example.examenccspring.Controllers.ProprieteController.recupererProprieteParMatricule(ProprieteController.java:47) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-06-14T22:55:42.773+01:00  INFO 32412 --- [ExamenCCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (0 additions, 9 deletions, 0 modifications)
+2024-06-14T22:55:42.786+01:00  INFO 32412 --- [ExamenCCSpring] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14T22:55:42.789+01:00  INFO 32412 --- [ExamenCCSpring] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-14T22:55:42.793+01:00  INFO 32412 --- [ExamenCCSpring] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-14T22:55:42.842+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : Starting ExamenCcSpringApplication using Java 17.0.9 with PID 32412 (D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring\target\classes started by youss in D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring)
+2024-06-14T22:55:42.842+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-06-14T22:55:42.849+01:00  WARN 32412 --- [ExamenCCSpring] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.example.examenccspring.Services.ProprieteService]
+2024-06-14T22:55:42.862+01:00 ERROR 32412 --- [ExamenCCSpring] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.example.examenccspring.Services.ProprieteService]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:251) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:314) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.0.jar:3.3.0]
+	at com.example.examenccspring.ExamenCcSpringApplication.main(ExamenCcSpringApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.0.jar:3.3.0]
+Caused by: java.io.FileNotFoundException: class path resource [com/example/examenccspring/Services/IProprieteService.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:215) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:54) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:630) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getInterfaces(ConfigurationClassParser.java:956) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.processInterfaces(ConfigurationClassParser.java:396) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:342) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.8.jar:6.1.8]
+	... 23 common frames omitted
+
+2024-06-14T22:55:44.299+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : Starting ExamenCcSpringApplication using Java 17.0.9 with PID 32412 (D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring\target\classes started by youss in D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring)
+2024-06-14T22:55:44.299+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-06-14T22:55:44.437+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-14T22:55:44.445+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 3 JPA repository interfaces.
+2024-06-14T22:55:44.517+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-06-14T22:55:44.518+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-14T22:55:44.518+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-14T22:55:44.531+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-14T22:55:44.531+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 231 ms
+2024-06-14T22:55:44.559+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-14T22:55:44.562+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-14T22:55:44.572+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-14T22:55:44.573+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-06-14T22:55:44.576+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7161b84c
+2024-06-14T22:55:44.576+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-06-14T22:55:44.577+01:00  WARN 32412 --- [ExamenCCSpring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-14T22:55:44.632+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-14T22:55:44.645+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14T22:55:44.743+01:00  WARN 32412 --- [ExamenCCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-14T22:55:44.832+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-14T22:55:44.840+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-06-14T22:55:44.843+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : Started ExamenCcSpringApplication in 0.558 seconds (process running for 516.387)
+2024-06-14T22:55:44.845+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-14T22:57:55.087+01:00  INFO 32412 --- [ExamenCCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-06-14T22:57:55.110+01:00  INFO 32412 --- [ExamenCCSpring] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14T22:57:55.112+01:00  INFO 32412 --- [ExamenCCSpring] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-06-14T22:57:55.115+01:00  INFO 32412 --- [ExamenCCSpring] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-06-14T22:57:55.199+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : Starting ExamenCcSpringApplication using Java 17.0.9 with PID 32412 (D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring\target\classes started by youss in D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring)
+2024-06-14T22:57:55.200+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-06-14T22:57:55.391+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-14T22:57:55.402+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 3 JPA repository interfaces.
+2024-06-14T22:57:55.527+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-06-14T22:57:55.529+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-14T22:57:55.529+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-14T22:57:55.547+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-14T22:57:55.547+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 345 ms
+2024-06-14T22:57:55.578+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-14T22:57:55.581+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-14T22:57:55.588+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-14T22:57:55.589+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-06-14T22:57:55.593+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e0ad639
+2024-06-14T22:57:55.594+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-06-14T22:57:55.594+01:00  WARN 32412 --- [ExamenCCSpring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-14T22:57:55.665+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-14T22:57:55.685+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14T22:57:55.770+01:00  WARN 32412 --- [ExamenCCSpring] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'proprieteController' defined in file [D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring\target\classes\com\example\examenccspring\Controllers\ProprieteController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.examenccspring.Services.ProprieteService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-06-14T22:57:55.771+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14T22:57:55.771+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-06-14T22:57:55.798+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-06-14T22:57:55.799+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-06-14T22:57:55.806+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-14T22:57:55.814+01:00 ERROR 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.examenccspring.Controllers.ProprieteController required a bean of type 'com.example.examenccspring.Services.ProprieteService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.examenccspring.Services.ProprieteService' in your configuration.
+
+2024-06-14T22:57:57.271+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : Starting ExamenCcSpringApplication using Java 17.0.9 with PID 32412 (D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring\target\classes started by youss in D:\Users\youss\.jdks\jbr-17.0.8\bin\gitfx\ExamenCCSpring)
+2024-06-14T22:57:57.272+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-06-14T22:57:57.408+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-14T22:57:57.416+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 3 JPA repository interfaces.
+2024-06-14T22:57:57.475+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-06-14T22:57:57.477+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-14T22:57:57.477+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-14T22:57:57.493+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-06-14T22:57:57.494+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 221 ms
+2024-06-14T22:57:57.519+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-14T22:57:57.520+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-14T22:57:57.525+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-14T22:57:57.526+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-06-14T22:57:57.529+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aa521bc
+2024-06-14T22:57:57.529+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-06-14T22:57:57.530+01:00  WARN 32412 --- [ExamenCCSpring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-14T22:57:57.580+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-14T22:57:57.595+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14T22:57:57.673+01:00  WARN 32412 --- [ExamenCCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-14T22:57:57.771+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-14T22:57:57.784+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-06-14T22:57:57.789+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] c.e.e.ExamenCcSpringApplication          : Started ExamenCcSpringApplication in 0.532 seconds (process running for 649.332)
+2024-06-14T22:57:57.790+01:00  INFO 32412 --- [ExamenCCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-14T22:58:40.051+01:00  INFO 32412 --- [ExamenCCSpring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14T22:58:40.052+01:00  INFO 32412 --- [ExamenCCSpring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-06-14T22:58:40.053+01:00  INFO 32412 --- [ExamenCCSpring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.

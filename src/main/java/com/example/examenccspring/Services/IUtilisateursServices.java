@@ -1,5 +1,4 @@
 package com.example.examenccspring.Services;
-
 import com.example.examenccspring.Entities.Declaration;
 import com.example.examenccspring.Entities.Utilisateur;
 
@@ -13,7 +12,6 @@ public interface IUtilisateursServices {
     void affecterPolicierADeclaration(long idUtilisateur, long idDeclaration);
     void affecterDeclarationAVictime(long idDeclaration, String telephone);
     void affecterDeclarationAPolicier(long idDeclaration, long idUtilisateur);
-
     String ajouterDeclarationEtAffecterAVictime(Declaration declaration, String telephone);
 
 

@@ -25,10 +25,13 @@ public class ProprieteService implements IProprieteService {
     public Optional<Propriete> getProprieteById(Long id) {
         return proprieteRepo.findById(id);
     }
-
-    @Override
+@Override
     public Propriete saveOrUpdatePropriete(Propriete propriete) {
-        return null;
+        if (proprieteRepo.existsById(propriete.getId())) {
+            return proprieteRepo.save(propriete);
+        } else {
+            throw new IllegalArgumentException("Propriete with ID " + propriete.getId() + " does not exist.");
+        }
     }
 
     @Override

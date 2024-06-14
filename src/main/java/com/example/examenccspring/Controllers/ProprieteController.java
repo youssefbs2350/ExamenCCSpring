@@ -2,9 +2,9 @@ package com.example.examenccspring.Controllers;
 
 import com.example.examenccspring.Entities.Propriete;
 import com.example.examenccspring.Services.ProprieteService;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Optional;
 
@@ -41,7 +41,15 @@ public class ProprieteController {
         proprieteService.deleteProprieteById(id);
         return ResponseEntity.noContent().build();
     }
-
+    @PutMapping("/{id}")
+    public ResponseEntity<Propriete> updatePropriete(@PathVariable Long id, @RequestBody Propriete propriete) {
+        if (!proprieteService.existsById(id)) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+        propriete.setId(id);
+        Propriete updatedPropriete = proprieteService.saveOrUpdatePropriete(propriete);
+        return ResponseEntity.ok(updatedPropriete);
+    }
     @GetMapping("/par-matricule/{matricule}")
     public ResponseEntity<Propriete> recupererProprieteParMatricule(@PathVariable String matricule) {
         Optional<Propriete> propriete = proprieteService.recupererProprieteParMatricule(matricule);
