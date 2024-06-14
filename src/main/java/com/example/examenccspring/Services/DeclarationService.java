@@ -4,7 +4,6 @@ import com.example.examenccspring.Entities.Declaration;
 import com.example.examenccspring.Repositories.DeclarationRepo;
 import com.example.examenccspring.Repositories.ProprieteRepo;
 import com.example.examenccspring.Repositories.UtilisateurRepo;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -18,7 +17,6 @@ public class DeclarationService implements IDeclarationService {
     private final ProprieteRepo proprieteRepo;
     private final UtilisateurRepo utilisateurRepo;
 
-    @Autowired
     public DeclarationService(DeclarationRepo declarationRepo, ProprieteRepo proprieteRepo, UtilisateurRepo utilisateurRepo) {
         this.declarationRepo = declarationRepo;
         this.proprieteRepo = proprieteRepo;

@@ -46,13 +46,6 @@ public class UtilisateurService implements IUtilisateursServices {
         }
 
     @Override
-    public String ajouterPolicier(List<Utilisateur> policiers) {
-        long count = policiers.stream().filter(p -> p.getRole() == Role.POLICIER).count();
-        utilisateurRepository.saveAll(policiers);
-        return count + " policiers sont ajoutés avec succès !";
-    }
-
-    @Override
     public String ajouterDeclarationEtAffecterAVictime(Declaration declaration, String telephone) {
         Utilisateur victime = utilisateurRepository.findByTelephone(telephone);
         if (victime != null && victime.getRole() == Role.VICTIME) {

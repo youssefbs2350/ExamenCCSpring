@@ -25,6 +25,14 @@ public class UtilisateurController {
         }
         return ResponseEntity.ok(newVictime);
     }
+    @PostMapping("/ajouter-policier")
+    public ResponseEntity<Utilisateur> ajouterPolicier(@RequestBody Utilisateur policier) {
+        Utilisateur newPolicier = utilisateurService.ajouterPolicier(policier);
+        if (newPolicier == null) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
+        return ResponseEntity.ok(newPolicier);
+    }
 
     @PostMapping("/ajouter-policiers")
     public ResponseEntity<String> ajouterPoliciers(@RequestBody List<Utilisateur> policiers) {
